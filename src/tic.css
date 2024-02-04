@@ -1,0 +1,89 @@
+/* *{
+    text-align: center;
+}
+
+.square{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 72px;
+    background: #212121;
+    border: none;
+
+}
+
+.status button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(20, 100, 248);
+    font-size: 28px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+.status button:hover{
+    transform: scale(1.05);
+    transition: ease-in-out all;
+} */
+
+/* tic.css */
+
+body{
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .each {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid #333;
+    background-color: #212121;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .square:hover {
+    background-color: #212121;
+  }
+  
+  .status {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #05b80e;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
